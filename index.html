@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brahmavarta Group</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-cream">
+            <div class="logo">
+                <div class="square"></div>
+                <h4>International Real Esate LLC</h4>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#listing">Listings</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#home">Catalogs</a></li>
+                <li><a href="#home">Sell With Us</a></li>
+                <button class="login"><a href="#rent">For Rent</a></button>
+                <button class="signup"><a href="#sale">For Sale</a></button>
+            </ul>
+            <div class="hamburger">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line lin2-3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero bg-cream">
+        <div class="main">
+            <div class="hero-content">
+                <h2><span>Your Gateway To Exceptional</span> <br> Properties</h2>
+                <p>Explore our exclusive listings for premium residential, commercial, and industrial properties. Discover your dream space today.</p>
+                <div class="buttons">
+                    <button><a href="#listing">View Listings</a></button>
+                </div>
+            </div>
+            <div class="img">
+                <img src="images/Group-6.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="feature mt-4">
+        <div class="feature-card">
+            <div class="card">
+                <h4>Core Values</h4>
+                <p>・Integrity And Transparency<br>
+                    ・Client-Centric Approach<br>
+                    ・Innovation And Growth</p>
+            </div>
+            <div class="card">
+                <h4>Integrity And Transparency</h4>
+                <p>We prioritize honesty and openness in all our dealings, building trust with our clients.</p>
+            </div>
+            <div class="card">
+                <h4>Client-Centric Approach</h4>
+                <p> Our focus is on understanding and fulfilling our clients' unique needs and aspirations.</p>
+            </div>
+            <div class="card">
+                <h4>Innovation And Growth</h4>
+                <p> Embracing innovation to adapt and grow in the ever-changing real estate landscape.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro mt-5">
+        <div class="heading">
+            <h4>Unleashing The Future Of <span>Real Estate Journey </span></h4>
+            <p>Welcome to our distinguished real estate firm with a worldwide reach, focusing on the Middle East and India, where we go beyond traditional approaches to reshape the world of property transactions. At BIG Real Estate, we stand ready to guide you through every step of your land investment journey. Together, let us unlock the boundless potential of land and pave the way to a prosperous future.</p>
+            <br><img src = "./images/first.jpg">
+        </div>
+    </section>
+
+    <section class="intro mt-5">
+        <div class="heading">
+            <h4>Get to Know us<br> <span>Empowering Your Real Estate Journey </span></h4>
+            <p>With nearly a decade of expertise, BIG International Real Estate LLC is your trusted partner for all your real estate ventures.</p>
+            <br><img src = "./images/second.jpg">
+        </div>
+        
+    </section>
+
+    <section class="intro mt-5">
+        <div class="heading">
+            <h4>Why Choose Us?<br> <span>Market Trends Analysis </span></h4>
+            <p>Stay ahead with real-time market insights: property appreciation, rental yields, and emerging opportunities. Capitalize on market dynamics.</p>
+            <br><img src = "./images/third.jpg">
+        </div>
+        
+    </section>
+
+    <footer class="mt-6">
+        <div class="edu-logo">
+            <div class="logo">
+                <h4>Brahmavarta Group</h4>
+                <div class="square"></div>
+            </div>
+            <div class="v-line"></div>
+            <span>Unlocking Real Estate Opportunities Worldwide</span>
+        </div>
+        <div class="subscribe-letter mt-4">
+            <h5>Subscribe to get our Newsletter</h5>
+            <div class="form">
+                <input type="text" placeholder="Your Email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="links mt-4">
+            <a href="">Terms & Conditions</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Contact Us</a>
+        </div>
+        <div class="copyright">
+            <p>© 2023 – Brahmavarta International Group. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        let hamburgerbtn = document.querySelector(".hamburger");
+        let nav_list = document.querySelector(".nav-list");
+        hamburgerbtn.addEventListener("click", () => {
+            hamburgerbtn.classList.toggle("active");
+            nav_list.classList.toggle("active");
+        });
+
+    </script>
+</body>
+</html>
